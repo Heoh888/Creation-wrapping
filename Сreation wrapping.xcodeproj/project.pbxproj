@@ -11,9 +11,6 @@
 		8609AB4728B28FF50030B73A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8609AB4628B28FF50030B73A /* ContentView.swift */; };
 		8609AB4928B28FF70030B73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8609AB4828B28FF70030B73A /* Assets.xcassets */; };
 		8609AB4C28B28FF70030B73A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8609AB4B28B28FF70030B73A /* Preview Assets.xcassets */; };
-		8609AB5628B28FF70030B73A /* _reation_wrappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8609AB5528B28FF70030B73A /* _reation_wrappingTests.swift */; };
-		8609AB6028B28FF70030B73A /* _reation_wrappingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8609AB5F28B28FF70030B73A /* _reation_wrappingUITests.swift */; };
-		8609AB6228B28FF70030B73A /* _reation_wrappingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8609AB6128B28FF70030B73A /* _reation_wrappingUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,7 @@
 		8609AB4828B28FF70030B73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8609AB4B28B28FF70030B73A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8609AB5128B28FF70030B73A /* Сreation wrappingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Сreation wrappingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8609AB5528B28FF70030B73A /* _reation_wrappingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _reation_wrappingTests.swift; sourceTree = "<group>"; };
 		8609AB5B28B28FF70030B73A /* Сreation wrappingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Сreation wrappingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8609AB5F28B28FF70030B73A /* _reation_wrappingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _reation_wrappingUITests.swift; sourceTree = "<group>"; };
-		8609AB6128B28FF70030B73A /* _reation_wrappingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _reation_wrappingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				8609AB4328B28FF50030B73A /* Сreation wrapping */,
-				8609AB5428B28FF70030B73A /* Сreation wrappingTests */,
-				8609AB5E28B28FF70030B73A /* Сreation wrappingUITests */,
 				8609AB4228B28FF50030B73A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				8609AB4B28B28FF70030B73A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		8609AB5428B28FF70030B73A /* Сreation wrappingTests */ = {
-			isa = PBXGroup;
-			children = (
-				8609AB5528B28FF70030B73A /* _reation_wrappingTests.swift */,
-			);
-			path = "Сreation wrappingTests";
-			sourceTree = "<group>";
-		};
-		8609AB5E28B28FF70030B73A /* Сreation wrappingUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8609AB5F28B28FF70030B73A /* _reation_wrappingUITests.swift */,
-				8609AB6128B28FF70030B73A /* _reation_wrappingUITestsLaunchTests.swift */,
-			);
-			path = "Сreation wrappingUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8609AB5628B28FF70030B73A /* _reation_wrappingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8609AB6028B28FF70030B73A /* _reation_wrappingUITests.swift in Sources */,
-				8609AB6228B28FF70030B73A /* _reation_wrappingUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
